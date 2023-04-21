@@ -1,0 +1,120 @@
+/* Estilos de RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Globals */
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Layouts */
+
+/* Header */
+header, main, footer {
+    border: 15px violet;
+}
+
+header > nav {
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+body, main {
+    background-color: #444444;
+}
+
+
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 25px;
+}
+
+a {
+    color: #fff;
+}
+
+hr {
+    display: grid;
+    place-content: center;
+    width: 50%;
+}
+
+.my-name {
+    display: grid;
+    place-content: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.my-picture {
+    display: grid;
+    place-content: center;
+    margin: 30px 0px 40px 0px;
+}
+
+.who-ami {
+    background-color: #000;
+    margin: 40px 0 40px 0;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    padding: 30px;
+}
+
+.who-ami-title, .do-title {
+    display: grid;
+    place-content: center;
+    margin-bottom: 30px; 
+    color: #fff;
+}
+
+.my-description {
+    color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.do-stuff {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+footer {
+    background-color: #000;
+}
+
+.contacto {
+    margin-top: 20px;
+}
+
+.social-network {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.social-network-icon{
+    width: 40px;
+    height: 40px;
+}
+
