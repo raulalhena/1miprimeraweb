@@ -7,7 +7,18 @@
 
 /* Globals */
 html {
+    background-image: url("./img/parallax1.jpg");
     font-family: 'Courier New', Courier, monospace;
+    /* The image used */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Layouts */
@@ -17,21 +28,28 @@ header, main, footer {
     border: 15px violet;
 }
 
+header {
+    padding: 0;
+}
+
 header > nav {
     text-align: center;
     background-color: #222;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
 
-body, main {
+/* body, main {
     background-color: #444444;
+} */
+
+main > section {
+    padding-top: 20px;
 }
-
-
 
 ul {
     text-align: center;
@@ -101,6 +119,7 @@ hr {
 
 footer {
     background-color: #000;
+    padding: 20px;
 }
 
 .contacto {
@@ -110,7 +129,7 @@ footer {
 .social-network {
     display: grid;
     place-content: center;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .social-network-icon{
@@ -118,3 +137,9 @@ footer {
     height: 40px;
 }
 
+.copyright {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
